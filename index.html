@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OxCharles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!---NAVIGATION BAR-->    
+<!---NAVIGATION BAR-->
+
+    <nav id="desktopNav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+<!-- Hero Section HTML -->
+<div class="hero-section">
+
+    <div id="particles-js"></div>
+
+    <div class="animated-background"></div>
+    <div class="hero-container">
+        <div class="hero-profile">
+            <img src="/images/my3dcharacter.png" alt="OxCharles Image">
+        </div>
+        <div class="hero-content">
+            <div class="hero-inner-rectangle">
+                <h1 class="main-title">I'm Charles</h1>
+                <div class="subtext">
+                    <span>Alpha Business Strategist</span>
+                    <span>Freelancing Expert</span>
+                    <span>Penetration Tester</span>
+                    <span>Front-End Developer</span>
+                </div>
+                <div class="buttons">
+                    <a href="#projects" class="btn-primary">Access Vault</a>
+                    <a href="#contact" class="btn-secondary">Connect with Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <a href="#about" class="scroll-indicator">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4V20M12 20L6 14M12 20L18 14" stroke="#008040" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+
+</div>
+
+
+
+
+<!-- ========================= About Me Section ========================= -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p class="intro">
+            I'm a results-driven freelancer blending creativity and security to build what others don’t dare to imagine. 
+            My journey in tech has been fueled by a passion for problem-solving, strategic thinking, and a relentless 
+            drive to push boundaries. I don’t just adapt to change—I lead it.
+        </p>
+
+        <!-- Core Values -->
+        <div class="core-values">
+            <h3>Core Values</h3>
+            <div class="values-grid">
+                <div class="value-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Innovation</h4>
+                    <p>Revolutionizing ideas through technology and strategic thinking.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Security</h4>
+                    <p>Building solutions fortified with cutting-edge protection.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-trophy"></i>
+                    <h4>Excellence</h4>
+                    <p>Striving for perfection in every line of code and strategic decision.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Impact</h4>
+                    <p>Delivering projects that not only perform but inspire and transform.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-rocket"></i>
+                    <h4>Mastery</h4>
+                    <p>Pushing beyond limits to achieve superior results in every challenge.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work Ethic & Personality -->
+        <div class="work-ethic">
+            <h3>Work Ethic & Personality</h3>
+            <p>
+                <strong>Relentless. Focused. Unapologetically Driven.</strong>  
+                I’m not just another freelancer—I’m a disruptor of norms, a strategist with precision, and a relentless architect of impactful solutions. 
+                My work ethic is built on three core principles: <strong>Discipline, Mastery, and Domination.</strong>  
+                I don’t settle for “good enough”—I push boundaries, reimagine possibilities, and engineer solutions that leave a mark.  
+                <br><br>
+                Every project is a battleground, and I’m armed with the skills to conquer it. From strategic planning to flawless execution, I transform ideas into experiences and challenges into victories.  
+                When obstacles arise, I don’t break—I <strong>break through.</strong>  
+                <br><br>
+                <strong>I don’t just complete projects—I dominate them.</strong>  
+            </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .about-section {
+        padding: 80px 20px;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+
+    .about-container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .about-intro h2 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+        color: #008040;
+    }
+
+    .about-intro p {
+        font-size: 1.1em;
+        margin-bottom: 30px;
+        color: #343a40;
+    }
+
+    .core-values {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .value-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 15px rgba(0, 128, 64, 0.1);
+        transition: all 0.3s ease;
+        width: 180px;
+    }
+
+    .value-item:hover {
+        box-shadow: 0px 0px 25px rgba(0, 128, 64, 0.2);
+    }
+
+    .value-item i {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #008040;
+    }
+
+    .value-item h4 {
+        font-size: 1.2em;
+        color: #343a40;
+    }
+
+    @media (max-width: 768px) {
+        .core-values {
+            gap: 20px;
+        }
+        .value-item {
+            width: 150px;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Particles Background -->
+<div id="particles-js"></div>
+
+<!-- Include the Particles.js Script -->
+<script src="particles.min.js"></script>
+
+<script src="script.js"></script>
+
+<script>
+    particlesJS.load('particles-js', 'particles-config.json', function() {
+        console.log('Particles.js loaded - callback');
+    });
+</script>
+
+</body>
+</html>
