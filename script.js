@@ -17,27 +17,3 @@ exploreButton.addEventListener('click', () => {
     }
 });
 
-
-
-
-/* Initialize Particles.js */
-particlesJS.load('particles-js', 'particles-config.json', function() {
-    console.log('Particles.js configuration loaded successfully.');
-});
-
-
-document.querySelector('.scroll-indicator').addEventListener('click', function () {
-    document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
-});
-
-
-
-document.querySelector('.btn-primary').addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
-});
-
-document.querySelector('.btn-secondary').addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
-});
